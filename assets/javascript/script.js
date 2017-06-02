@@ -7,11 +7,13 @@
  $("#searchBtn").on("click", function() {
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
+var search = $("#search").val();
+console.log(search); 
 
 
 url += '?' + $.param({
   'api-key': "769f2ad0d52b43bbb9836c132e41d884",
-  'q' : "michael+jackson"
+  'q' : search
 });
 $.ajax({
   url: url,
