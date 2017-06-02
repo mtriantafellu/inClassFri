@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
@@ -33,7 +32,7 @@ $.ajax({
 
 
 
-=======
+
 //IDs:
 //#search
 //#number
@@ -42,4 +41,3 @@ $.ajax({
 //#searchBtn
 //#clearBtn
 //#results
->>>>>>> fbe78db32437531f46296bcb88e754ba211cdf0a
