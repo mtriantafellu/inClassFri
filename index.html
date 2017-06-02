@@ -40,28 +40,43 @@
 
 	<div class="panel panel-default">
 
-	<div class="well well-lg">
- 		<div align="center" class="panel-body" id="timer">
+	<div align="left" class="panel-body" id="timer">
 			
-			<div class="input-group">
-			<span class="input-group-addon" id="basic-addon1">Search Term: </span>
-			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+			<ul>
+			<li><span class="input-group-addon" id="basic-addon1">Search Term: 
+			<input id="search" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"></span></li>
 			<br>
 			
-			<span class="input-group-addon" id="basic-addon1">Number of Records to Retrieve: </span>
-			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+			<li><span class="input-group-addon" id="basic-addon1">Number of Records to Retrieve: 
+			<input id="number" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"></span></li>
 			<br>
 
-			<span class="input-group-addon" id="basic-addon1">Start Year (Optional): </span>
-			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-
-			<span class="input-group-addon" id="basic-addon1">End Year (Optional): </span>
-			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+			<li><span class="input-group-addon" id="basic-addon1">Start Year (Optional): 
+			<input id="start" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"></span></li>
 			<br>
+
+			<li><span class="input-group-addon" id="basic-addon1">End Year (Optional): 
+			<input id="end" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"></span></li>
+			</ul>
+			<br>
+
+			<button id="searchBtn" type="button" class="btn btn-default">Search</button>
+			<button id="clearBtn" type="button" class="btn btn-default">Clear Results</button>
+
 			</div>
-		</div>
   		</div>
-	</div> <!-- End Timer Panel -->	
+
+	<div class="panel panel-default">
+
+	<div align="left" class="panel-body" id="timer">
+			
+			<ul>
+			<li><span class="input-group-addon" id="basic-addon1">Results: 
+			<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"></span></li>
+			<br>
+			</ul>
+	</div>
+	
 	</div>
 	
 	</div> <!-- End Wrapper Class -->
