@@ -1,2 +1,8 @@
 //IDs:
-//#searchInput
+//#search
+//#number
+//#start
+//#end
+//#searchBtn
+//#clearBtn
+//#results
