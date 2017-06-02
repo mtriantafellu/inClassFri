@@ -1,4 +1,10 @@
+ $( document ).ready(function() {
 
+
+
+
+
+ $("#searchBtn").on("click", function() {
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
 
@@ -20,8 +26,6 @@ $.ajax({
 
 
 
-
-
   
 
 }).fail(function(err) {
@@ -30,6 +34,11 @@ $.ajax({
 
 
 
+//end of on click
+});
+
+    console.log( "ready!" );
+});
 
 
 
