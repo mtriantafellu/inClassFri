@@ -10,10 +10,14 @@ var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 var search = $("#search").val();
 console.log(search); 
 
+var startYear = $("#start").val();
+console.log(start);
+
+
 
 url += '?' + $.param({
   'api-key': "769f2ad0d52b43bbb9836c132e41d884",
-  'q' : search
+  'q' : search 
 });
 $.ajax({
   url: url,
