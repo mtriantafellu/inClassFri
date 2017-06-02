@@ -31,16 +31,17 @@
 <body>
 
 <div class="row">
-<div class="jumbotron">
 <div class="container text-center">
-  	<h1>New York Time Search!!</h1>
+<div class="jumbotron">
 
+  	<h1>New York Time Search!!</h1>
+</div>
 	<!-- For the purposes of hiding and un-hiding things -->
   	<div id="wrapper">
 
 	<div class="panel panel-default">
 
-	<div align="left" class="panel-body" id="timer">
+	<div align="left" class="panel-body">
 			
 			<ul>
 			<li><span class="input-group-addon" id="basic-addon1">Search Term: 
@@ -63,15 +64,20 @@
 			<button id="searchBtn" type="button" class="btn btn-default">Search</button>
 			<button id="clearBtn" type="button" class="btn btn-default">Clear Results</button>
 
-			</div>
-  		</div>
+	</div>
+
 
 	<div class="panel panel-default">
 
-	<div align="left" class="panel-body" id="results">
-			<div>
-			Results
-			<div>
+	<div align="left" class="panel-body">
+			<div id="results">
+				<span class="result-number">Results</span>
+			</div>
+			<p id="paragraph">
+				ID
+			</p>
+	</div>
+</div> <!-- End Container-->
 
 			
 	</div>
