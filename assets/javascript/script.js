@@ -1,3 +1,14 @@
+//IDs:
+//#container
+//#wrapper
+//#search
+//#number
+//#start
+//#end
+//#searchBtn
+//#resultsBtn
+//#results
+//#paragraph
 
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
