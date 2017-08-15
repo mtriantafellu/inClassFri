@@ -2,6 +2,7 @@
 In Class Assignment 6-2
 
 # Requirements
+As outlined in homework
 
 # Purpose:
 
